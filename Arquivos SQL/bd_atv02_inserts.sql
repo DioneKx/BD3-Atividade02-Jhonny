@@ -2,7 +2,7 @@
 
 INSERT INTO tbl_turma (cod_turma, sigla, nome) VALUES (1, "Turma A", "Turma A - 1° DS"), (2, "Turma B", "Turma B - 2° DS");
 
-INSERT INTO tbl_disciplina (cod_disciplina, cod_turma, sigla) VALUES (1, 2, "PW"), (2, 1, "BD"), (3, 1, "PY"), (4, 2, "SSI");
+INSERT INTO tbl_disciplina (cod_disciplina, cod_turma, sigla) VALUES (1, 2, "PW"), (2, 1, "BD"), (3, 1, "PY"), (4, 2, "SSI"), (5, 2, "IP"), (6, 1, "SE"), (7, 1, "IOT"), (8, 2, "JAVA");
 
 INSERT INTO tbl_aluno (cod_aluno, cod_turma, nome, cpf, rg, telefone_aluno, telefone_responsavel, email, data_nascimento)
 VALUES (1, 1, "Josivaldo Nogueira", "00000000000", "00001112X", "11958741551", "11988741334", "josivaldo08@gmail.com", "952908885"),
